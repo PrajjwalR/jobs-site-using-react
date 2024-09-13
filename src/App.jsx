@@ -1,8 +1,12 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+
 const App = () => {
-  return (
-    <div className="text-5xl">
-      Hello
-    </div>
+<>
+    <Navbar></Navbar>
+  <Hero></Hero>
+  
+    </>
   )
 }
 

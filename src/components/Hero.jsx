@@ -1,4 +1,4 @@
-const Hero = () => {
+const Hero = ({ title = "React Developer", subtitle = "Find a react job" }) => {
   return (
     <div>
       <section className="bg-indigo-700 py-20 mb-4">
